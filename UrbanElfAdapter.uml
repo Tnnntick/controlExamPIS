@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>UrbanElfAdapter</OriginalElement>
+  <nodes>
+    <node x="-20.834610262210532" y="165.62409402171036">ForestElf</node>
+    <node x="78.48933339976125" y="-3.8807997319149976">WildElf</node>
+    <node x="-280.4881531640315" y="307.53121118233213">RoyalElf</node>
+    <node x="197.41735387415036" y="165.62409402171033">UrbanElfAdapter</node>
+    <node x="-280.4881531640315" y="165.6240940217104">UrbanElf</node>
+    <node x="-197.57542226254046" y="12.716976861088646">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ForestElf" target="WildElf" relationship="REALIZATION">
+      <point x="4.6560266267192674E-4" y="-49.00041796537232" />
+      <point x="64.66585534045214" y="105.70422535211267" />
+      <point x="163.9889436619718" y="105.70422535211267" />
+      <point x="-3.8973778946171933E-4" y="42.50026692104207" />
+    </edge>
+    <edge source="UrbanElfAdapter" target="WildElf" relationship="REALIZATION">
+      <point x="-2.9930488437912572E-5" y="-49.00034997598361" />
+      <point x="305.4173239436619" y="105.70422535211267" />
+      <point x="163.9889436619718" y="105.70422535211267" />
+      <point x="-3.8973778946171933E-4" y="42.50026692104207" />
+    </edge>
+    <edge source="RoyalElf" target="UrbanElf" relationship="REALIZATION">
+      <point x="-1.2794524697713427" y="-55.22135202740253" />
+      <point x="-197.98815316403147" y="306.3098591549296" />
+      <point x="0.0" y="37.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8658536585365854" showDependencies="false" x="211.4084507042254" y="267.61971830985914" />
+  <SelectedNodes>
+    <node>Main</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
